@@ -9,7 +9,7 @@
 
 4.ScreenShot of the output page
 
-![image alt]()
+![image alt](https://github.com/sudhir1825/GuviTask6/blob/22b04621b88f26d7f0fdd6180baa873526505aa7/Screenshot%202025-04-05%20at%2012.47.41%20PM.png)
 
 
 5.ScreenShot of the output page
