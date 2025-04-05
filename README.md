@@ -45,4 +45,4 @@ After Clicking new tab is opened
 
 11.ScreenShot of the output page
 
-![image alt]()
+![image alt](https://github.com/sudhir1825/GuviTask6/blob/655db22882cf0010197a3dac8dfaadbbc7ceb530/Screenshot%202025-04-05%20at%2012.49.53%20PM.png)
