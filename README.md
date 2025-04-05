@@ -34,7 +34,7 @@ After Clicking new tab is opened
 
 9.ScreenShot of the output page
 
-![image alt]()
+![image alt](https://github.com/sudhir1825/GuviTask6/blob/e269f65cf98ae2dfb108df258058160a6bb74fc7/Screenshot%202025-04-05%20at%2012.49.02%20PM.png)
 
 
 10.ScreenShot of the output page
