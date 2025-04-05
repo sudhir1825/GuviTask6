@@ -18,7 +18,7 @@
 
 After Clicking new tab is opened
 
-![image alt]()
+![image alt](https://github.com/sudhir1825/GuviTask6/blob/f9fcc33bcd78ea87571fbec772630bbdb090d97c/Screenshot%202025-04-05%20at%2012.48.17%20PM.png)
 
 
 6.ScreenShot of the output page
