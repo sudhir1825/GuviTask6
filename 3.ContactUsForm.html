@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact Us Form
+        </title>
+        <style>
+            body{
+                align-self: center;
+                align-items: center;
+                border: 1px solid #000000;
+            }
+            label{
+                
+                display: block;
+            }
+        </style>
+    </head>
+    <body style="align-items: center;">
+        <h1>CONTACT INFORMATION FORM</h1>
+        <form style = "align-items:flex-start;" action="null">
+            <!-- Name input -->
+            <label for="name" >Name: </label>
+            <input type="text" name="name" id="name"/><br>
+            
+            <!-- Phone input -->
+            <label for="C_NO">Contact Number</label>
+            <input type="number" name="C_NO" id="C_NO"/><br>
+            
+             <!-- Gender  input -->
+            <label style="display: inline-block;">Male</label><input type="radio">
+            <label style="display: inline-block;">Female</label><input type="radio"><br>
+            
+             <!-- Email input -->
+            <label for="e-mail">Email-id: </label>
+            <input type="email" name="e-mail" id="e-mail"/><br>
+            <label for="e-mail">Address </label>
+           
+            <!-- Address input -->
+            <textarea name="Address" rows="10" cols="30"></textarea><br>
+            
+             <!-- Submit Button -->
+            <input type="submit" name="submit" value="Submit">
+            
+             <!-- reset all the Fields -->
+            <input type="reset" name =" reset" value="reset">
+        </form>
+    </body>
+</html>

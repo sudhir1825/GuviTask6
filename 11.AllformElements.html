@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Information Form</title>
+</head>
+<body>
+
+  <h2>Student Information Form</h2>
+
+  <form>
+
+    <!-- Full Name input -->
+    <label for="student_name">Full Name:</label>
+    <input type="text" id="student_name" name="student_name">
+    <!-- User should enter their full name -->
+    <br><br>
+
+    <!-- Age input -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age">
+    <!-- Numeric input for age -->
+    <br><br>
+
+    <!-- Email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <!-- User's email address -->
+    <br><br>
+
+    <!-- Gender radio buttons -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <!-- Only one gender can be selected -->
+    <br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+    <!-- Pick or enter birthdate -->
+    <br><br>
+
+    <!-- Class/Grade dropdown -->
+    <label for="grade">Class/Grade:</label>
+    <select id="grade" name="grade">
+      <option value="">--Select--</option>
+      <option value="10">10th</option>
+      <option value="11">11th</option>
+      <option value="12">12th</option>
+    </select>
+    <!-- Dropdown for selecting class -->
+    <br><br>
+
+    <!-- Subjects checkboxes -->
+    <label>Subjects Interested:</label><br>
+    <input type="checkbox" name="subjects" value="math"> Math<br>
+    <input type="checkbox" name="subjects" value="science"> Science<br>
+    <input type="checkbox" name="subjects" value="english"> English<br>
+    <!-- User can check multiple subjects -->
+    <br>
+
+    <!-- Phone input -->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone">
+    <!-- Input for phone number -->
+    <br><br>
+
+    <!-- Address textarea -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="3" cols="30"></textarea>
+    <!-- Text area for entering address -->
+    <br><br>
+
+    <!-- File upload -->
+    <label for="photo">Profile Picture:</label>
+    <input type="file" id="photo" name="photo">
+    <!-- Upload profile image -->
+    <br><br>
+
+    <!-- Student ID field -->
+    <label for="student_id">Student ID:</label>
+    <input type="text" id="student_id" name="student_id">
+    <!-- Optional: manually or auto-generated ID -->
+    <br><br>
+
+    <!-- Submit and Reset buttons -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <!-- Submit sends form data; reset clears form -->
+
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Information Form</title>
+</head>
+<body>
+
+  <h2>Student Information Form</h2>
+
+  <form>
+
+    <!-- Full Name input -->
+    <label for="student_name">Full Name:</label>
+    <input type="text" id="student_name" name="student_name" value="Sudhir"><br><br>
+
+    <!-- Age input -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" value="23"><br><br>
+
+    <!-- Email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="sudhir@example.com"><br><br>
+
+    <!-- Gender radio buttons -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female" checked>
+    <label for="female">Female</label>
+    <!-- Only one gender can be selected -->  
+    <br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" value="2005-04-15"><br><br>
+
+    <!-- Class/Grade dropdown -->
+    <label for="grade">Class/Grade:</label>
+    <select id="grade" name="grade">
+      <option value="10" selected>10th</option>
+      <option value="11">11th</option>
+      <option value="12">12th</option>
+    </select>
+    <!-- Dropdown for current grade selection -->
+    <br><br>
+
+    <!-- Subjects checkboxes -->
+    <label>Subjects Interested:</label><br>
+    <input type="checkbox" name="subjects" value="math" checked> Math<br>
+    <input type="checkbox" name="subjects" value="science"> Science<br>
+    <input type="checkbox" name="subjects" value="english"> English<br>
+    <!-- Multiple subjects can be selected -->
+    <br>
+
+    <!-- Phone input -->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" value="9876543210"><br><br>
+
+    <!-- Address textarea -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="3" cols="30">57/4 coimbatore</textarea><br><br>
+
+    <!-- File upload -->
+    <label for="photo">Profile Picture:</label>
+    <input type="file" id="photo" name="photo">
+    <!-- Upload should be in JPG/PNG format -->
+    <br><br>
+
+    <!-- Student ID field -->
+    <label for="student_id">Student ID:</label>
+    <input type="text" id="student_id" name="student_id" value="STU12345">
+    <!-- Could be auto-generated or entered manually -->
+    <br><br>
+
+    <!-- Submit and Reset buttons -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <!-- Buttons to submit or clear the form -->
+
+  </form>
+
+</body>
+</html>
