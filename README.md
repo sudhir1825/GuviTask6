@@ -23,20 +23,13 @@ After Clicking new tab is opened
 
 6.ScreenShot of the output page
 
-![image alt]()
+![image alt](https://github.com/sudhir1825/GuviTask6/blob/da92f99509b488e94f6fd85d020dcaace4061b01/Screenshot%202025-04-05%20at%2012.48.44%20PM.png)
 
 
-7.ScreenShot of the output page
-
-![image alt]()
+7.Nil
 
 
-
-8.ScreenShot of the output page
-
-![image alt]()
-
-
+8.Nil
 
 
 9.ScreenShot of the output page
